@@ -1,12 +1,13 @@
 <package>
 
   <name>nao_moveit_config</name>
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <description>
      An automatically generated package with all the configuration and launch files for using the NAO robot with the MoveIt Motion Planning Framework
   </description>
   <author email="mikael.arguedas@gmail.com">Mikael Arguedas</author>
   <maintainer email="mikael.arguedas@gmail.com">Mikael Arguedas</maintainer>
+  <maintainer email="vincent.rabaud@gmail.com">Vincent Rabaud</maintainer>
 
   <license>BSD</license>
 
@@ -17,8 +18,6 @@
 
   <run_depend>nao_description</run_depend>
   <run_depend>joint_state_publisher</run_depend>
-  <run_depend>moveit_fake_controller_manager</run_depend>
-  <run_depend>moveit_simple_controller_manager</run_depend>
   <run_depend>moveit_planners_ompl</run_depend>
   <run_depend>moveit_ros_move_group</run_depend>
   <run_depend>moveit_ros_visualization</run_depend>
