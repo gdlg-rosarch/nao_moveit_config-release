@@ -1,0 +1,96 @@
+ros-jade-nao-moveit-config (0.0.8-0vivid) vivid; urgency=high
+
+  * updated dependency list
+  * Contributors: Mikael Arguedas
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Wed, 03 Feb 2016 08:00:00 -0000
+
+ros-jade-nao-moveit-config (0.0.7-0vivid) vivid; urgency=high
+
+  * homogenize group names to match side_bodyChain
+  * added end effectors for legs
+  * update collision matrix: fix collision on NAO's feet
+  * rename demo_real.launch into moveit_planner.launch to match tutorials
+  * Merge pull request #9 <https://github.com/ros-naoqi/nao_moveit_config/issues/9> from nlyubova/master
+    missing collisions
+  * fixing srdf, adding missing collisions
+  * fixing the projection_evaluator joints for hand groups
+  * added demo_real.launch from nlyubova's fork
+  * Contributors: Mikael Arguedas, Vincent Rabaud, nlyubova
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Sat, 23 Jan 2016 08:00:00 -0000
+
+ros-jade-nao-moveit-config (0.0.6-0vivid) vivid; urgency=high
+
+  * updating the readme
+  * fixing the config for the most recent urdf
+  * add myself as a maintainer
+  * Contributors: Vincent Rabaud, nlyubova
+  * add myself as a maintainer
+  * Contributors: Vincent Rabaud
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Wed, 21 Oct 2015 07:00:00 -0000
+
+ros-jade-nao-moveit-config (0.0.5-0vivid) vivid; urgency=high
+
+  * install the .setup_assistant file for potential introspection
+  * remove the URDF and fix the README
+  * add a .setup_assistant
+  * Added foot and pelvis fake controllers
+  * Added foot and pelvis controllers
+  * Contributors: Arguedas Mikael, Konstantinos Chatzilygeroudis, Vincent Rabaud
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Mon, 25 May 2015 07:00:00 -0000
+
+ros-jade-nao-moveit-config (0.0.4-0vivid) vivid; urgency=high
+
+  * fixed collision for ankle
+  * fixed path to xacro file
+  * fixed hand links names
+  * Update README.rst
+    Added note for missing deppendency
+  * add missing dependency
+  * added moveit tutorial
+  * Contributors: Arguedas Mikael, Mikael ARGUEDAS, margueda
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Thu, 04 Dec 2014 08:00:00 -0000
+
+ros-jade-nao-moveit-config (0.0.3-0vivid) vivid; urgency=high
+
+  * update README
+  * Merge branch 'master' of github.com:ros-nao/nao_moveit_config
+  * unify group names to match romeo_moveit_config agreement
+  * Update README.rst
+  * Update README.rst
+  * fixed dependencies and update README
+  * Initial tracks.yaml
+  * Contributors: Arguedas Mikael, margueda
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Wed, 01 Oct 2014 07:00:00 -0000
+
+ros-jade-nao-moveit-config (0.0.2-0vivid) vivid; urgency=high
+
+  * added version argument to every launchfile
+  * avoid looping animations
+  * fixed moveit.rviz location
+  * Merge branch 'master' of github.com:ros-aldebaran/nao_moveit_config
+  * fixed robot_description xacro path
+  * Contributors: margueda
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Wed, 24 Sep 2014 07:00:00 -0000
+
+ros-jade-nao-moveit-config (0.0.1-0vivid) vivid; urgency=high
+
+  * fix typos
+  * Update README.md
+  * Update README.md
+  * updated model and cleaning
+  * update README
+  * new moveit with controllers
+  * add README
+  * initial commit of Ioan's modifications
+  * Contributors: Arguedas Mikael, Vincent Rabaud, margueda
+
+ -- Mikael Arguedas <mikael.arguedas@gmail.com>  Thu, 18 Sep 2014 07:00:00 -0000
+
+
