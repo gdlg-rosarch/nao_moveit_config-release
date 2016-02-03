@@ -2,6 +2,11 @@
 Changelog for package nao_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2016-02-03)
+------------------
+* remove nao_meshes from dependency because license not displayed on buildfarm
+* Contributors: Mikael Arguedas
+
 0.0.8 (2016-02-03)
 ------------------
 * updated dependency list
