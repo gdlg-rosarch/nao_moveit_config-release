@@ -1,18 +1,17 @@
 <package>
 
   <name>nao_moveit_config</name>
-  <version>0.0.9</version>
+  <version>0.0.10</version>
   <description>
      An automatically generated package with all the configuration and launch files for using the NAO robot with the MoveIt Motion Planning Framework
   </description>
   <author email="mikael.arguedas@gmail.com">Mikael Arguedas</author>
   <maintainer email="mikael.arguedas@gmail.com">Mikael Arguedas</maintainer>
-  <maintainer email="vincent.rabaud@gmail.com">Vincent Rabaud</maintainer>
 
   <license>BSD</license>
 
-  <url type="bugtracker">https://github.com/ros-nao/nao_moveit_config/issues</url>
-  <url type="repository">https://github.com/ros-nao/nao_moveit_config</url>
+  <url type="bugtracker">https://github.com/ros-naoqi/nao_moveit_config/issues</url>
+  <url type="repository">https://github.com/ros-naoqi/nao_moveit_config</url>
 
   <build_depend>nao_description</build_depend>
 
