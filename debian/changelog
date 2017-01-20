@@ -1,0 +1,133 @@
+ros-kinetic-nao-moveit-config (0.0.11-0xenial) xenial; urgency=high
+
+  * Merge pull request #18 <https://github.com/ros-naoqi/nao_moveit_config/issues/18> from ros-naoqi/update_maintainers
+    update maintainers
+  * update maintainers
+  * Merge pull request #17 <https://github.com/ros-naoqi/nao_moveit_config/issues/17> from ros-naoqi/nlyubova-patch-2
+    Update the execution time
+  * Update the execution time
+  * Merge pull request #16 <https://github.com/ros-naoqi/nao_moveit_config/issues/16> from ros-naoqi/fix-deprecated-warnings
+    Fix deprecated warnings
+  * update parameter namespace
+  * fix deprecated xacro call
+  * use action rather than service for trajectory execution
+  * Contributors: Mikael Arguedas, Natalia Lyubova
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Fri, 20 Jan 2017 08:00:00 -0000
+
+ros-kinetic-nao-moveit-config (0.0.10-0xenial) xenial; urgency=high
+
+  * Update README.rst
+  * adding RRT as default planner
+  * remove vrabaud as a maintainer
+  * Merge pull request #12 <https://github.com/ros-naoqi/nao_moveit_config/issues/12> from ros-naoqi/update_dead_links
+    update dead links
+  * update dead links
+  * updating the README
+  * Contributors: Mikael Arguedas, Natalia Lyubova, Vincent Rabaud
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Sun, 18 Sep 2016 07:00:00 -0000
+
+ros-kinetic-nao-moveit-config (0.0.9-0xenial) xenial; urgency=high
+
+  * remove nao_meshes from dependency because license not displayed on buildfarm
+  * Contributors: Mikael Arguedas
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Wed, 03 Feb 2016 08:00:00 -0000
+
+ros-kinetic-nao-moveit-config (0.0.8-0xenial) xenial; urgency=high
+
+  * updated dependency list
+  * Contributors: Mikael Arguedas
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Wed, 03 Feb 2016 08:00:00 -0000
+
+ros-kinetic-nao-moveit-config (0.0.7-0xenial) xenial; urgency=high
+
+  * homogenize group names to match side_bodyChain
+  * added end effectors for legs
+  * update collision matrix: fix collision on NAO's feet
+  * rename demo_real.launch into moveit_planner.launch to match tutorials
+  * Merge pull request #9 <https://github.com/ros-naoqi/nao_moveit_config/issues/9> from nlyubova/master
+    missing collisions
+  * fixing srdf, adding missing collisions
+  * fixing the projection_evaluator joints for hand groups
+  * added demo_real.launch from nlyubova's fork
+  * Contributors: Mikael Arguedas, Vincent Rabaud, nlyubova
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Sat, 23 Jan 2016 08:00:00 -0000
+
+ros-kinetic-nao-moveit-config (0.0.6-0xenial) xenial; urgency=high
+
+  * updating the readme
+  * fixing the config for the most recent urdf
+  * add myself as a maintainer
+  * Contributors: Vincent Rabaud, nlyubova
+  * add myself as a maintainer
+  * Contributors: Vincent Rabaud
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Wed, 21 Oct 2015 07:00:00 -0000
+
+ros-kinetic-nao-moveit-config (0.0.5-0xenial) xenial; urgency=high
+
+  * install the .setup_assistant file for potential introspection
+  * remove the URDF and fix the README
+  * add a .setup_assistant
+  * Added foot and pelvis fake controllers
+  * Added foot and pelvis controllers
+  * Contributors: Arguedas Mikael, Konstantinos Chatzilygeroudis, Vincent Rabaud
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Mon, 25 May 2015 07:00:00 -0000
+
+ros-kinetic-nao-moveit-config (0.0.4-0xenial) xenial; urgency=high
+
+  * fixed collision for ankle
+  * fixed path to xacro file
+  * fixed hand links names
+  * Update README.rst
+    Added note for missing deppendency
+  * add missing dependency
+  * added moveit tutorial
+  * Contributors: Arguedas Mikael, Mikael ARGUEDAS, margueda
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Thu, 04 Dec 2014 08:00:00 -0000
+
+ros-kinetic-nao-moveit-config (0.0.3-0xenial) xenial; urgency=high
+
+  * update README
+  * Merge branch 'master' of github.com:ros-nao/nao_moveit_config
+  * unify group names to match romeo_moveit_config agreement
+  * Update README.rst
+  * Update README.rst
+  * fixed dependencies and update README
+  * Initial tracks.yaml
+  * Contributors: Arguedas Mikael, margueda
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Wed, 01 Oct 2014 07:00:00 -0000
+
+ros-kinetic-nao-moveit-config (0.0.2-0xenial) xenial; urgency=high
+
+  * added version argument to every launchfile
+  * avoid looping animations
+  * fixed moveit.rviz location
+  * Merge branch 'master' of github.com:ros-aldebaran/nao_moveit_config
+  * fixed robot_description xacro path
+  * Contributors: margueda
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Wed, 24 Sep 2014 07:00:00 -0000
+
+ros-kinetic-nao-moveit-config (0.0.1-0xenial) xenial; urgency=high
+
+  * fix typos
+  * Update README.md
+  * Update README.md
+  * updated model and cleaning
+  * update README
+  * new moveit with controllers
+  * add README
+  * initial commit of Ioan's modifications
+  * Contributors: Arguedas Mikael, Vincent Rabaud, margueda
+
+ -- Surya Ambrose <surya.ambrose@gmail.com>  Thu, 18 Sep 2014 07:00:00 -0000
+
+
